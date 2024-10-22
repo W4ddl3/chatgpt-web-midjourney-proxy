@@ -147,22 +147,8 @@ const chatId= computed(()=>chatStore.active??'1002' );
                 </n-tooltip>                
             </a>
 
-            
 
-             
 
-        </div>
-        <div class="flex flex-col  space-y-2 "> 
-
-            
-            <NAvatar  size="large"  round  :src="userInfo.avatar"   v-if="userInfo.avatar"  :fallback-src="defaultAvatar"
-             class=" cursor-pointer"  />
-            
-            <HoverButton>
-                <div class="text-xl text-[#4f555e] dark:text-white flex h-full justify-center items-center "  @click="st.show = true">
-                    <SvgIcon icon="ri:settings-4-line" />
-                </div>
-            </HoverButton>
         </div>
     </div>
 </div>
@@ -170,9 +156,8 @@ const chatId= computed(()=>chatStore.active??'1002' );
 
  <!-- <n-drawer v-model:show="st.showImg" :placement="isMobile?'bottom':'right'"  :class="isMobile?['!h-[90vh]']: ['!w-[80vw]']" style="--n-body-padding:0">
     <n-drawer-content title="GPT store" closable>
-      sdsd 
+      sdsd
     </n-drawer-content>
 </n-drawer> -->
 </template>
 
- 
