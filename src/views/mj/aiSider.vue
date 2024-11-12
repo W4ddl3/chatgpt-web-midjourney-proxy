@@ -152,18 +152,6 @@ const chatId= computed(()=>chatStore.active??'1002' );
              
 
         </div>
-        <div class="flex flex-col  space-y-2 "> 
-
-            
-            <NAvatar  size="large"  round  :src="userInfo.avatar"   v-if="userInfo.avatar"  :fallback-src="defaultAvatar"
-             class=" cursor-pointer"  />
-            
-            <HoverButton>
-                <div class="text-xl text-[#4f555e] dark:text-white flex h-full justify-center items-center "  @click="st.show = true">
-                    <SvgIcon icon="ri:settings-4-line" />
-                </div>
-            </HoverButton>
-        </div>
     </div>
 </div>
  <Setting v-if="st.show" v-model:visible="st.show" />
@@ -175,4 +163,3 @@ const chatId= computed(()=>chatStore.active??'1002' );
 </n-drawer> -->
 </template>
 
- 
