@@ -385,7 +385,9 @@ const close=()=>{
             <section>
                 <!-- <aiTextSetting @close="loadConfig"  :msgInfo="$t('mj.rtsetting')" v-if="!st.apikey||!st.baseUrl"/> -->
                 <div v-if="!st.apikey||!st.baseUrl">
-                    <div v-html="$t('mj.rtsetting')" class="p-5 text-center"> </div>
+                    <div class="p-5 text-center">
+                        <a href="https://docs.b3n.fun/openai-realtime" target="_blank">点击查看设置教程 ↗︎</a>
+                    </div>
                     <div class="text-center">
                         <NButton type="primary" @click="st.showSetting=true">{{ $t('setting.setting') }} </NButton> 
                     </div>

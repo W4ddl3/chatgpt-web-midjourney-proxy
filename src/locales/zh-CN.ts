@@ -194,9 +194,9 @@ export default {
   },
   mj:{
     setOpen:'OpenAI 相关',
-    setOpenPlaceholder:'必须包含 http(s)://'
+    setOpenPlaceholder:''
     ,setOpenUrl:'OpenAI接口地址'
-    ,setOpenKeyPlaceholder:'使用自定义 OpenAI Key 绕过密码访问限制'
+    ,setOpenKeyPlaceholder:''
     ,setMj:'Midjourney 相关'
     ,setMjUrl:'Midjourney接口地址:'
     ,setMjKeyPlaceholder:'使用自定义 Api Secret 绕过密码访问限制'
